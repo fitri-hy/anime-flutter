@@ -14,7 +14,4 @@ Anime App adalah aplikasi yang dirancang untuk para penggemar anime. Aplikasi in
 - `flutter pub get`
 - `flutter run`
 
-<video controls>
-  <source src="./assets/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe src="./assets/video.mp"></iframe>
