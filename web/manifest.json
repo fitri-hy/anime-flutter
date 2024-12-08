@@ -1,6 +1,6 @@
 {
-    "name": "anime_flutter",
-    "short_name": "anime_flutter",
+    "name": "Anime App",
+    "short_name": "Anime App",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

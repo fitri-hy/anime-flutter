@@ -113,7 +113,7 @@ class _StatusDetailPageState extends State<StatusDetailPage> {
 			  Navigator.pushReplacement(
 			    context,
 			    MaterialPageRoute(
-				  builder: (context) => const MyHomePage(title: 'Anime'),
+				  builder: (context) => const MyHomePage(title: 'Anime App'),
 			    ),
 			  );
 		    },

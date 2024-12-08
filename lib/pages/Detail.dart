@@ -78,7 +78,7 @@ class _DetailPageState extends State<DetailPage> {
 			  Navigator.pushReplacement(
 			    context,
 			    MaterialPageRoute(
-				  builder: (context) => const MyHomePage(title: 'Anime'),
+				  builder: (context) => const MyHomePage(title: 'Anime App'),
 			    ),
 			  );
 		    },
@@ -107,14 +107,14 @@ class _DetailPageState extends State<DetailPage> {
                   ),
                   const SizedBox(height: 20),
                   Table(
-                    border: TableBorder.all(color: Color(0xFFe3e3e3)),
+                    border: TableBorder.all(color: Color(0xFFe8e8e8)),
                     columnWidths: const {
                       0: FlexColumnWidth(2),
                       1: FlexColumnWidth(3),
                     },
                     children: [
                       TableRow(
-                        decoration: const BoxDecoration(color: Color(0xFFe3e3e3)),
+                        decoration: const BoxDecoration(color: Color(0xFFe8e8e8)),
                         children: [
                           const Padding(
                             padding: EdgeInsets.all(8.0),

@@ -111,7 +111,7 @@ class _ListPageState extends State<ListPage> {
 			Navigator.pushReplacement(
 			  context,
 			  MaterialPageRoute(
-				builder: (context) => const MyHomePage(title: 'Anime'),
+				builder: (context) => const MyHomePage(title: 'Anime App'),
 			  ),
 			);
 		  },

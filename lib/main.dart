@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Anime Demo',
+      title: 'Anime App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -199,7 +199,21 @@ Widget _menuCard(BuildContext context, String title, IconData icon, VoidCallback
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: Text(widget.title),
+        title: Row(
+          children: [
+            Image.asset(
+              'assets/logo.png',
+              height: 30,
+            ),
+            SizedBox(width: 10),
+            Text(
+              'Anime App',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.search),

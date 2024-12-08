@@ -51,7 +51,7 @@ class _EpisodePageState extends State<EpisodePage> {
 			  Navigator.pushReplacement(
 			    context,
 			    MaterialPageRoute(
-				  builder: (context) => const MyHomePage(title: 'Anime'),
+				  builder: (context) => const MyHomePage(title: 'Anime App'),
 			    ),
 			  );
 		    },

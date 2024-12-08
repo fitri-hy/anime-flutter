@@ -78,7 +78,7 @@ class _FilterPageState extends State<FilterPage> {
 			  Navigator.pushReplacement(
 			    context,
 			    MaterialPageRoute(
-				  builder: (context) => const MyHomePage(title: 'Anime'),
+				  builder: (context) => const MyHomePage(title: 'Anime App'),
 			    ),
 			  );
 		    },

@@ -80,7 +80,7 @@ class _GenreDetailPageState extends State<GenreDetailPage> {
 			  Navigator.pushReplacement(
 			    context,
 			    MaterialPageRoute(
-				  builder: (context) => const MyHomePage(title: 'Anime'),
+				  builder: (context) => const MyHomePage(title: 'Anime App'),
 			    ),
 			  );
 		    },

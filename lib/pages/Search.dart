@@ -81,7 +81,7 @@ class _SearchPageState extends State<SearchPage> {
 			Navigator.pushReplacement(
 			  context,
 			  MaterialPageRoute(
-				builder: (context) => const MyHomePage(title: 'Anime'),
+				builder: (context) => const MyHomePage(title: 'Anime App'),
 			  ),
 			);
 		  },
